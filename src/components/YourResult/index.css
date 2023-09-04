@@ -1,0 +1,45 @@
+.your-result {
+  background: linear-gradient(0deg, #6172fd, #2169e9);
+  border-radius: 0 0 20px 20px;
+  color: rgba(233, 233, 233, 0.8);
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.your-result__title {
+  font-size: 1rem;
+}
+.your-result__user-score {
+  font-size: 3rem;
+  font-weight: 500;
+  display: block;
+  color: white;
+}
+
+.your-result__score {
+  background: linear-gradient(0deg, #3f6cf0, #4759c9);
+  width: 100px;
+  height: 100px;
+  padding: 16px 16px;
+  border-radius: 100%;
+  margin: auto;
+  color: rgba(180, 172, 172, 0.8);
+}
+
+.your-result__message {
+  max-width: 80%;
+  margin: auto;
+}
+
+.your-result__message-title {
+  font-size: 24px;
+  color: white;
+}
+
+@media (min-width: 787px) {
+  .your-result {
+    border-radius: 30px;
+  }
+}

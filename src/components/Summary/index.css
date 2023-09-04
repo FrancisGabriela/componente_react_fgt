@@ -1,0 +1,43 @@
+body {
+  font-family: "Hanken Grotesk", sans-serif;
+  font-size: 18px;
+}
+
+.summary {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding: 16px;
+}
+
+.summary__title {
+  text-align: start;
+  font-weight: 400;
+  margin-bottom: 0px;
+}
+
+.summary-item {
+  max-width: 100%;
+  display: grid;
+  grid-template-columns: 20px 1fr 1fr;
+  gap: 16px;
+  align-items: center;
+  justify-content: center;
+  padding: 0 16px;
+  border-radius: 8px;
+}
+
+.summary-item__title {
+  text-align: start;
+  text-transform: capitalize;
+}
+
+.summary-item__score {
+  text-align: end;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.summary-item__user-score {
+  font-weight: bold;
+  color: rgba(0, 0, 0, 0.8);
+}
